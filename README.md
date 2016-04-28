@@ -1,6 +1,7 @@
 # LightAPI
 Simple code and project to show how to build Java project with Gradle
-Also we can see how to manage dependencies and run our application directly from Gradle CLI.
+Also we can see how to manage dependencies and run our application directly from Gradle CLI. 
+The last thing is how to build a distribution package with dependencies.
 
 # 1. Clean workspace
 ```bash
