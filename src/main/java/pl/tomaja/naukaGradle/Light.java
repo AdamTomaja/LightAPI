@@ -11,7 +11,7 @@ public class Light {
 		ON, OFF
 	}
 	
-	private final Gson gson = new Gson();
+	private transient final Gson gson = new Gson();
 	
 	private State state = State.OFF;
 	private Color color = Color.WHITE;
@@ -35,7 +35,7 @@ public class Light {
 	public void setColor(Color color) {
 		this.color = color;
 	}
-	
+
 	public synchronized String getColorAsJson() {
 		return gson.toJson(color);
 	}
